@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+/* Facebook logo */
+.logo {
+    font-size: 60px;
+    color: #005FD4;
+    font-weight: bold;
+    margin: 30px 0 20px 0;
+}
+
+
+/* Input box */
+.input-box {
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 12px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 16px;
+    outline: none;
+}
+
+.input-box input:focus {
+    border: 1px solid black;
+}
+
+::placeholder {
+    font-size: 15px;
+    /* font-weight: 500; */
+}
+
+/* Login button */
+.login-btn {
+    width: 100%;
+    max-width: 350px;
+    background: #1877F2;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 15px;
+    border-radius: 200px;
+    cursor: pointer;
+    margin-top: 5px;
+
+}
+
+.login-btn:hover {
+    background: #1877F2;
+}
+
+/* Forgotten password */
+.forgot {
+    margin: 15px 0;
+    color: #151111;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.logo img {
+    height: 65px;
+    margin: 20px auto;
+}
+
+/* Create account button */
+.create-btn {
+    width: 100%;
+    max-width: 350px;
+    border: 1px solid #1877F2;
+    background: #fff;
+    color: #1877F2;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 13px 15px;
+    border-radius: 300px;
+    cursor: pointer;
+    margin-top: 95px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.langu {
+    font-size: 13px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    color: #797070;
+}
+
+
+
+.create-btn:hover {
+    background: #f0f2f5;
+}
+
+/* Footer Meta logo */
+.footer img {
+    height: 35px;
+    margin-top: 6px;
+}
+
+.meta-logo {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.error-text {
+    font-size: 10px;
+    margin-left: 0px;
+    color: red;
+
+}
