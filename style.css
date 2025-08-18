@@ -14,6 +14,19 @@ body {
     padding: 20px;
 }
 
+.img1 {
+
+    height: 60px;
+    margin-top: 0;
+    width: 100%;
+}
+
+.img1 img {
+    height: 66px;
+    margin-top: 0;
+    width: 100%;
+}
+
 /* Facebook logo */
 .logo {
     font-size: 60px;
@@ -79,8 +92,8 @@ body {
 }
 
 .logo img {
-    height: 65px;
-    margin: 20px auto;
+    height: 60px;
+    margin: 15px auto;
 }
 
 /* Create account button */
@@ -95,7 +108,7 @@ body {
     padding: 13px 15px;
     border-radius: 300px;
     cursor: pointer;
-    margin-top: 95px;
+    margin-top: 60px;
     font-family: Arial, Helvetica, sans-serif;
 }
 

